@@ -1,0 +1,53 @@
+header .nav-link {
+    color: white
+}
+
+
+header .nav-link:hover {
+    color: red
+}
+
+header .nav-link:active {
+    color: #ffdd4d;
+}
+
+body {
+    background-image: url(../assets/3.jpg);
+}
+
+.cont {
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: gray;
+}
+p:hover{
+    color: aqua;
+    outline: 4px solid #ff0000;
+    transition: all 0.3s;
+}
+
+.page2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: gray;
+}
+.page2:hover{
+    color: aqua;
+    outline: 4px solid #ff0000;
+    transition: all 0.3s;
+}

@@ -1,0 +1,40 @@
+header .nav-link {
+    color: white
+}
+
+
+header .nav-link:hover {
+    color: red
+}
+
+header .nav-link:active {
+    color: #ffdd4d;
+}
+
+body {
+    background-image: url(../assets/3.jpg);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h2, h3 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+p {
+    color: white;
+    background-color: gray;
+}
+p:hover{
+    color: aqua;
+    outline: 4px solid #ff0000;
+    transition: all 0.3s;
+}
+

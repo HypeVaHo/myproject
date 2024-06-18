@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект</title>
+    <link rel="stylesheet" href="css/buttons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="js/buttons.js" defer></script>
+</head>
+
+<body>
+    <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="index.html" class="nav-link">В начало</a></li>
+            <li class="nav-item"><a href="page1.html" class="nav-link">Элементы</a></li>
+            <li class="nav-item"><a href="page2.html" class="nav-link">Скрипты</a></li>
+        </ul>
+    </header>
+    <main class="container">
+        <div class="cont">
+            <h2>Кнопки на сайтах тоже разные и прямо сейчас я вам покажу их разновидности.</h2>
+        </div>
+        <div class="cont"><button class="button-85" role="button" id="button">Начнём!</button></div>
+        <div class="container row row-cols-8 row-cols-md-6 gy-5">
+            <button type="button" class="btn btn-primary d-none" id="hidebutton">Обычная кнопка</button>
+            <button type="button" class="btn btn-outline-light d-none" id="hidebutton1">Прозрачная кнопка</button>
+            <button type="button" class="btn btn-primary d-none" id="hidebutton2" disabled>Выключенная кнопка</button>
+            <a href="buttons.html" class="btn btn-primary d-none" role="button" id="hidebutton3">Кнопка-ссылка</a>
+            <button type="button" class="btn btn-outline-light d-none" data-bs-toggle="button"
+                id="hidebutton4">Кнопка-переключатель</button>
+            <div class="btn-group d-none" role="group" aria-label="Basic radio toggle button group" id="hidebutton5">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="btnradio1">Кнопка-переключатель</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">Кнопка-переключатель</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio3">Кнопка-переключатель</label>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

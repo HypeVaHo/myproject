@@ -1,0 +1,29 @@
+header .nav-link {
+    color: white
+}
+
+
+header .nav-link:hover {
+    color: red
+}
+
+header .nav-link:active {
+    color: #ffdd4d;
+}
+
+body {
+    background-image: url(../assets/1.png);
+}
+
+div{
+    display:flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

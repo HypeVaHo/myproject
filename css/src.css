@@ -1,0 +1,51 @@
+header .nav-link {
+    color: white
+}
+
+
+header .nav-link:hover {
+    color: red
+}
+
+header .nav-link:active {
+    color: #ffdd4d;
+}
+
+.cont {
+    display: flex;
+    color: blue;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+}
+
+.card{
+    width: 350px;
+    height: 16px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card:hover {
+    outline: 4px solid #ffdd4d;
+    transition: all 0.5s;
+}
+
+.card-title{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-text{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+}
